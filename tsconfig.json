@@ -9,6 +9,17 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "@umpqua-bank/login/*": [
+          "projects/login/*",
+          "projects/login"
+
+      ],
+      "@umpua-bank/login": [
+        "dist/login/login/*",
+        "dist/login"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
