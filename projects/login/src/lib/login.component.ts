@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
@@ -8,7 +8,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 
     <div class="row">
       <div class="col-6 offset-3">
-        <h1>Login</h1>
+        <ucl-title>Login</ucl-title>
       </div>
     </div>
 

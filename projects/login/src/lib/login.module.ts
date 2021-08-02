@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
+import { TitleModule } from '@umpqua-bank/component-library';
 import { LoginComponent } from './login.component';
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   ],
   imports: [
     RouterModule.forChild(routes),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TitleModule
   ],
   exports: [
     LoginComponent
