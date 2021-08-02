@@ -83,7 +83,8 @@
               "projects/playground/src/assets"
             ],
             "styles": [
-              "projects/playground/src/styles.scss"
+              "projects/playground/src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },

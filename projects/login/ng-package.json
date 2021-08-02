@@ -3,5 +3,6 @@
   "dest": "../../dist/login",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": ["bootstrap"]
 }

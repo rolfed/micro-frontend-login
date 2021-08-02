@@ -1,10 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+
+// DO NOT IMPORT LAZY LOADED MODULES
+// LAZY LOADED MECHANISM HANDLES IMPORTS
+
+const routes: Routes = [
+  {
+    path: '',
+    loadChildren: () => import('@umpua-bank/login').then(m => m.LoginModule)
+  }
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
