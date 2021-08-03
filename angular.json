@@ -31,8 +31,19 @@
             "tsConfig": "projects/login/tsconfig.spec.json",
             "karmaConfig": "projects/login/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/login/**/*.ts",
+              "projects/login/**/*.html"
+            ]
+          }
         }
+
       }
+
     },
     "playground": {
       "projectType": "application",
