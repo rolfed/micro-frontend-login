@@ -3,23 +3,23 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@umpqua-bank/login/*": [ // used for development
+          "projects/login/*",
+          "projects/login"
+
+      ],
+      "@umpqua-bank/login": [ // builds product artifacts
+        "dist/login/login/*",
+        "dist/login"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "paths": {
-      "@umpqua-bank/login/*": [
-          "projects/login/*",
-          "projects/login"
-
-      ],
-      "@umpua-bank/login": [
-        "dist/login/login/*",
-        "dist/login"
-      ]
-    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,

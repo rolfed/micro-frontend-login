@@ -1,5 +1,5 @@
 {
-  "name": "login",
+  "name": "@umpqua-bank/login",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^12.1.0",

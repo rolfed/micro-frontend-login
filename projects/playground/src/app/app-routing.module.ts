@@ -8,7 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('@umpua-bank/login').then(m => m.LoginModule)
+    loadChildren: () => import('@umpqua-bank/login').then(m => m.LoginModule)
   }
 ];
 

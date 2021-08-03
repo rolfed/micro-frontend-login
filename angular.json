@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/login",
       "sourceRoot": "projects/login/src",
-      "prefix": "umpua-bank",
+      "prefix": "ulg",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
