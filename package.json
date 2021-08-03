@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prepare": "husky install",
+    "format-staged": "pretty-quick --staged",
     "lib:test": "ng test login",
     "lib:test-nowatch": "ng test login --watch=false",
     "lib:build": "ng build login",
