@@ -26,7 +26,7 @@
     "@angular/platform-browser": "~12.1.0",
     "@angular/platform-browser-dynamic": "~12.1.0",
     "@angular/router": "~12.1.0",
-    "@umpqua-bank/component-library": "file:../component-library/dist/@umpqua-bank/component-library/umpqua-bank-component-library-0.0.1.tgz",
+    "@umpqua-bank/component-library": "^1.1.13",
     "bootstrap": "^5.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",

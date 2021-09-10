@@ -16,15 +16,11 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "plugins": [],
-      "rules": {
-        "no-empty-function": "error"
-      }
+      "rules": {}
     },
     {
       "files": ["*.html"],
-      "extends": [
-        "plugin:@angular-eslint/template/recommended"
-      ],
+      "extends": ["plugin:@angular-eslint/template/recommended"],
       "plugins": []
     }
   ]
